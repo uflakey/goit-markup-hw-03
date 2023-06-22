@@ -9,6 +9,7 @@
 --portfolio-btn-col: #E7E9FC;
 
 }
+
 body{
 font-family: Roboto, sans-serif;
 color: #434455;
@@ -16,10 +17,16 @@ background-color: var(--whit-title-col)
 
   }
   /*Reset*/
+  h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+  }
+  
   .list,
   ul,
   ol {
     list-style: none;
+    margin: 0;
+    padding: 0;
   }
   .link,
   a {text-decoration: none;
@@ -31,7 +38,19 @@ background-color: var(--whit-title-col)
     cursor: pointer;
   }
 /*Header styles*/
-.header {}
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.container {
+    max-width: 1128px;
+    padding: 0 15px;
+    margin 0 auto;
+
+    outline: 2px solid red;
+    outline-offset: -2px;
+
+}
 .heder-nav {}
 .header-logo {}
 .header-logo {
@@ -90,6 +109,8 @@ font-style: normal;
 }
 /*Section hero styles*/
 .section-hero {
+    padding-top: 188px;
+    padding-bottom: 292px;
 background-color: var(--main-dark-col);
 }
 .hero-title {
@@ -116,6 +137,8 @@ background-color: #404BBF;
 }
 /*Section business styles*/
 .section-business {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .business-title {}
 .business-list {}
@@ -136,7 +159,10 @@ color: var(--text-col);
 }
 
 /*Section doing styles*/
-.section-doing {}
+.section-doing {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .doing-title {
 font-weight: 700;
 font-size: 36px;
@@ -152,6 +178,8 @@ color: var(--main-dark-col);
 
 /*Section team styles*/
 .section-team {
+    padding-top: 120px;
+    padding-bottom: 120px;
 background-color: var(--team-bg-col);
 }
 .team-title {
@@ -187,6 +215,8 @@ color: var(--text-col);
 
 /*Footer styles*/
 .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
 background-color: var(--main-dark-col);
 }
 .footer-logo {
