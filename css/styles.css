@@ -391,7 +391,12 @@ flex-basis: calc((100%-2*24px) / 3);
 
 .portfolio-link {}
 
-.portfolio-img {
+.portfolio-img {}
+
+.portfolio-container {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 
 }
 
@@ -401,6 +406,7 @@ font-size: 20px;
 line-height: 1.20;
 letter-spacing: 0.02em;
 color: var(--main-dark-col);
+margin-bottom: 8px
 }
 
 .portfolio-text {
